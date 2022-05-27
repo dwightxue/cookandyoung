@@ -1,0 +1,559 @@
+body{
+    background: linear-gradient(to left top, #FF78BA, #3913B8) ;
+    font-family: jost;
+ 
+    }
+
+#searchbox{
+    width: 75%;
+    margin: auto;
+}
+
+
+
+div {
+    text-align: center; 
+    
+}
+
+#searchbox > input {
+        width: 50%;
+        border: 2px  white;
+        border-right: 0px;
+        font-size: 18px;
+        padding: 12px;
+        background: transparent;
+        color: black; 
+        border-radius:50px;
+        background-color: white;   
+}
+
+
+nav > h1{
+    margin: 10px;
+    height: 30px;
+    padding: 0;
+    width: 30%;
+    font-family: jost;
+    color: white ;
+}
+
+
+/* Dropdown */
+nav{
+    background: #ea62e7;
+    border-radius: 5%;
+    width: 100%; 
+}
+
+
+ol, ul {
+	list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+  nav > ul{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    margin: 1%;
+  }
+
+  nav li{
+    border: 1px #FF78BA solid;
+    padding: 0.5em 1em;
+    width: 7em;
+    color: white;
+    background-color: white;
+       
+    transform: translateX(-1em);
+    display: inline-block;
+    justify-content: center;
+  }
+
+  nav ul ul{
+    transform: scale(1,0);
+     transform-origin: top center;
+     position: absolute;
+     top:100%;
+     transition: 0.4s;
+    text-align: center;
+    
+    
+     
+ }
+     
+ nav li:hover ul{
+  transform: scale(1,1);
+     transition: 0.3s;
+ }
+
+a.b, a:hover{
+    color: #FF78BA;
+    transition: 0.3s;
+    
+}
+
+
+  
+.box-image{
+    overflow: hidden;
+    position: relative;
+    font-family: jost;
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+}
+
+.box-image > img{
+    width: 50%;
+    margin: 50px;
+    display:block;
+    transition: transform 2s;
+    border-radius: 50px;
+    box-shadow: 0 4px 5px -1px rgba(0,0,0,0.5);
+    transition: 0.5s ease;
+    opacity: 0.8;
+}
+
+.box-image > img:hover{
+    transform: scale(1.1);
+}
+
+.box-image > p{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-family: jost;
+    padding-left: 20px;
+    overflow: wrap;
+    color: white;
+    white-space: pre;
+    font-size: 20px;
+    border-radius: 50px;
+    text-align: center;
+    margin: 50px;  
+}
+
+.box-image a{
+width: 6%;
+height: 5%;
+font-size: 20px;  
+ top: 50%;
+display: flex;
+position: absolute;
+margin: 50px;
+justify-content: space-evenly;
+}
+
+
+
+
+.btn{
+    border-radius: 50px;
+    border: 2px solid white;
+    border-color:#9351FF;
+    padding: 10px;
+    margin: 0 1em;
+    font-family: jost;
+    font-size: 12px;
+    justify-content:left;
+}
+
+
+h2{
+    text-align: left;
+    font-size: 40px;
+    font-family: jost;
+    color: white;
+    
+
+}
+
+.box{
+    position: relative;
+    display: block;
+    left: 50%;
+}
+
+
+.homeproduct-image{
+    max-width: 300px;
+    max-height: 820px;
+    overflow: hidden;
+    border-radius: 20px;
+    position: relative;
+    font-family: jost;
+    margin: 40px;
+}
+
+.homeproduct-image img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    transition: transform 1s;
+    margin:0 10px;
+}
+
+.homeproduct-image > img:hover{
+    transform:scale(1.1);
+}
+
+
+a{text-decoration: none;
+
+}
+
+
+.title{
+    font-weight: bold;
+    margin: 20px;
+}
+
+button{
+    border: 2px solid #BCA8ED;
+    background:#BCA8ED;
+    font-weight: bold;
+    margin: 20px;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-family: jost;
+}
+
+button:hover{
+    box-shadow: 0 0 5px 5px;
+    
+   
+}
+
+
+
+.cart{
+    padding-left: 45%;
+    
+   
+}
+
+.cart a{
+    padding: 5px;
+    border: 2px solid #BCA8ED;
+    text-decoration: none;
+   border-radius: 16px;
+    color: white;
+    background-color: #BCA8ED;
+    font-size: 25px;
+    
+   
+}
+
+.count{
+   
+    top: 1px;
+}
+
+
+@media only screen and (max-width:780px) {
+    nav.ul >li{width: 100%;
+   }
+    nav.ul> a {width: 100%}
+    div.box-image >a{width: 50%;}
+    div.box-image >img{display: none;}
+    div.box-image >p{width: 100%;
+                    left: 30%;}
+   
+        .home2-image{width: 120%;}
+    div.home2-image >img{width: 400%;
+    padding-right: 10%;}
+        .home2-image >a{
+            color: white;
+            padding-right:  50%;
+            display: flex;
+        }
+        .cart{top: 30%;
+        position: relative;}
+        .cart >a{
+            margin-left: 30%;
+                top: -30%;
+        }
+        .home2-image >p{
+            width: 130%;}
+
+            .bigimage{width: 100%;
+              
+            }  
+          .count{display: none;}
+    .shopping-container >button{
+       margin-left: -10%;
+    }
+    nav.h1{width: 100%;}
+    div.home3-image{display: none;}
+    div.home4-image{display:none;}
+    .home1presenter{width: 200%;}
+    
+
+
+}
+
+
+
+.home1presenter{
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+   margin:auto;
+   grid-gap:20px;
+   overflow: auto;
+   
+}
+
+.shopping-container > button{
+   
+    top: 8px;
+    left: 3%;
+    font-family: jost;
+   
+    overflow: wrap;
+    color: white;
+    white-space: pre;
+    font-size: 17px;
+    border-radius: 50px;
+    display: flex;
+   
+}
+
+
+
+
+.shopping-container{ margin-left: 25%;}
+
+
+.gallery{
+    margin: 5px;
+    border: 1px  white;
+    float: left;
+    display: block;
+    position: relative;
+  
+   
+}
+
+.gallery > img{
+    width: 60%;
+    height: auto;
+    margin: 1px;
+    border-radius: 10px; 
+}
+
+.gallery > a >img{
+    width: 60%;
+    height: auto;
+    margin: 1px;
+    border-radius: 10px; 
+}
+
+.gallery > a >img:hover{
+    transform:scale(1.1);
+    transition: 1.2s ease;
+}
+
+.gallery > img:hover{
+    transform:scale(1.1);
+    transition: 1.2s ease;
+}
+
+
+
+.container >img{width: 10%;}
+
+
+.home2-image{
+    padding-left: 4%;
+    padding-top: 4%;
+    position: relative;
+    margin: 30px;
+    display: flex;
+    justify-content: left;
+    bottom: 90px;
+    
+}
+
+.home2-image >img{
+  
+   width: 100%;
+    display:flex;
+    transition: transform 2s;
+    border-radius: 50px;
+    transition: 0.5s ease;
+    
+}
+
+.home2-image > img:hover{
+    transform: scale(1.1);
+    
+}
+
+.home2-image > p{
+    position: absolute;
+    padding-left: 10%;
+    font-family: jost;
+    
+    overflow: wrap;
+    color: white;
+    white-space: pre;
+    font-size: 17px;
+    border-radius: 50px;
+    
+    margin: 50px;
+   
+}
+
+.home2-image a{
+width: 25%;
+height: 5%;
+font-size: 20px;  
+top: 50%;
+display: flex;
+position: absolute;
+margin: 50px;
+border: 2px solid #9351FF;
+border-radius: 50px;
+justify-content: space-evenly;
+text-align: center;
+left: 30%;
+}
+
+.h33{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+ 
+    position: relative;
+    font-family: jost;
+    margin: 50px;
+    display: flex;
+    
+   
+}
+.home3-image{
+     
+    overflow: hidden;
+    position: relative;
+ 
+    display: flex;
+   
+
+    
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content:center; 
+   
+}
+
+.container>a{width: 6%;
+    height: 5%;
+    font-size: 20px;  
+    position: absolute;
+     top: 50%;
+    
+   
+    margin: 50px;
+    justify-content: space-evenly;
+
+}
+
+.home3-image > img{
+    width: 60%;
+   
+    margin: 50px;
+    display:flex;
+    transition: transform 2s;
+    border-radius: 50px;
+    transition: 0.5s ease;
+  
+}
+
+.home3-image > img:hover{
+    transform: scale(1.1);
+    
+}
+
+.home3-image > p{
+    position: absolute;
+    top: 24px;
+    left: 44%;
+    font-family: jost;
+    
+    overflow: wrap;
+    color: white;
+    white-space: pre;
+    font-size: 17px;
+    border-radius: 50px;
+    
+    margin: 50px;
+   
+}
+
+.home3-image a{
+
+font-size: 20px;  
+top: 50%;
+
+position:absolute;
+margin: 50px;
+border: 2px solid #9351FF;
+border-radius: 50px;
+justify-content: space-evenly;
+left: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.title{
+    font-size: 25px;
+    font-family: jost;
+    font-style: italic;
+    color: white;
+}
+
+.title > p{
+    color:white;
+}
+
+.title2{
+    font-size: 25px;
+    font-family: jost;
+    font-style: italic;
+    position:relative;
+    display: flex;
+    
+}
+
+
+
+footer{
+    background:#9351FF;
+    padding-bottom: 5%;
+    color: white;
+    font-family: jost;
+    font-size: 15px;
+}
