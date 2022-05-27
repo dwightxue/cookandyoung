@@ -1,4 +1,4 @@
-const name =document.getElementById('name')
+/* const name =document.getElementById('name')
 const checkoutform =document.getElementById('form')
 const errorElement = document.getElementById('error')
 const creditcard= document.getElementById('creditcard')
@@ -20,9 +20,7 @@ form.addEventListener('submit', (e) => {
      creditcard.push('Credit card number must be 12 digits')
     }
 
-    if (name.value.length <= 12) {
-      name.push('Credit card number must be 12 digits')
-     }
+   
 
 
 
@@ -32,3 +30,13 @@ form.addEventListener('submit', (e) => {
 
 
 })
+ */
+function validateForm() {
+  let x = document.forms["checkoutform"]["card"].value;
+  if (x.value.length <= 12) {
+    form1.push('Credit card number must be 12 digits')
+   
+ 
+    return false;
+  }
+}

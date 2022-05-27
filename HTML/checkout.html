@@ -6,7 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../CSS/checkout.css">
-    <script defer src="/JS/cart.js"></script>
+    <script  src="../JS/checkout.js"></script>
+    <script>
+        function validateForm() {
+           
+  let x = document.forms["checkoutform"]["card"].value;
+ 
+  if (x.length <= 12) {
+
+    document.getElementById("notvalidate").innerHTML="Credit card number should be more than 12 digits";
+    return false;
+  }else{
+      return true;
+  }
+}
+    </script>
 </head>
 <body>
     
@@ -57,8 +71,8 @@
 <h2>Billing Detail</h2>
 <div class="check-out-page">
     <div class="billing">
- 
-        <form id="checkoutform" action="/action_page.php" method="post">
+        <form name="checkoutform" action="product.html" onsubmit="return validateForm()" method="post">
+        
             <div class="form1">
                 <label for="name">Name</label>
             <input type="text" name="fname" required>
@@ -89,7 +103,8 @@
 
                 <div class="form1">
                     <label for="creditcard">Credit card number</label>
-                <input type="text" name="fname" required>
+                <input type="text" name="card" required>
+                <div id="notvalidate" style="color: red"></div>
                 
                 </div>
                
@@ -99,7 +114,7 @@
 
 
 
-        <button type="submit">Place order</button>
+        <input type="submit" value="Place order">
 
 
 
@@ -153,20 +168,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <footer>
     <div class="footer-content">
         <h4>Cook and young</h4>
@@ -178,16 +179,6 @@
     <p>copyright &copy;2022 desinged by dwight </p>
 </div>
 </footer>
-
-
-
-
-
-
-
-
-
-
 
 
 </body>
