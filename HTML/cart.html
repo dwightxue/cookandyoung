@@ -5,164 +5,105 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../CSS/cart.css">
+    <link rel = "stylesheet" href = "../CSS/cart.css">
 </head>
 <body>
+   <nav>
+    <h1>
+        Cook and young 
+    </h1>
     
-    <nav>
-        <h1>
-            Cook and young 
-        </h1>
-        
-        
-        <div id="searchbox">
-            <input placeholder="Search" type="text">
-            
-            
-        </div>
+    <div id="searchbox">
+        <input placeholder="Search" type="text">
+    </div>
+    
+    <div class="cart">
+        <a href="cart.html">Cart
+            <span id="counter">1</span>
+        </a>
+    </div>
 
-        <div class="cart-1">
-            <div class="cart">
-                <a href="cart.html">Cart
-                    <span id="counter">1</span>
-                </a>
-            </div>
-            
-            </div>
+     <ul>   
+        <li><a href ="index.html">HOME</a></li>
+        <li><a href ="productlisting.html">GENRE</a>
+    <ul>
+        <li><a href="productlisting.html">Fiction</a></li>
+        <li><a href="productlisting.html">Non-fiction</a></li> 
+    </ul>
+    </li>
 
-
-
-
-
-     <ul>
-        
-           
-          <li><a href = "/index.html">HOME</a></li>
-          <li><a href = "../HTML/productlisting.html">GENRE</a>
-            <ul>
-                <li><a href="../HTML/productlisting.html">Fiction</a></li>
-                <li><a href="../HTML/productlisting.html">Non-fiction</a></li>
-                
-              </ul>
-            </li>
-
-
-          <li><a href = "#">BLOG </a></li>
-          <li><a href = "#">CONTACT</a></li>
+    <li><a href = "#">BLOG </a></li>
+    <li><a href = "#">CONTACT</a></li>
     </ul>
     
    </nav>
 
-
-<div class="cart-container">
+   <div class="cart-container">
+    <table>
+        <tr>
+        <th>Product</th>
+        <th>Quantity</th>
+        <th>Subtotal</th>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                <img src="/Image/product1.jpg">
+                    
+                    <p>Sustainable Minimalism</p>
+                    <small>Price: $5</small>                    
+                </div>
+            </td>
+            <td> <input type="number" value = "1"></td>
+            <td>$5</td>
+        </tr>      
+        <tr>
+            <td>
+                <div class="cart-info">
+                <img src="/Image/product1.jpg">                    
+                    <p>Sustainable Minimalism</p>
+                    <small>Price: $5</small>                 
+                </div>
+            </td>
+            <td> <input type="number" value = "1"></td>
+            <td>$5</td>
+        </tr>
+        
+    </table>
+    <div class="total-price">
         <table>
+             <tr>
+                <td>Sub-total</td>
+                <td>$100</td>
+             </tr>
+             <tr>
+                <td>Tax</td>
+                <td>$30</td>
+             </tr>
+             <tr>
+                <td>Sub-total</td>
+                <td>$200</td>
 
-            <tr>
-            <th>Product</th>
-            <th>Quantity</th>
-            <th>Subtotal</th>
-            </tr>
-
-            <tr>
-                <td>
-                    <div class="cart-info">
-                    <img src="/Image/product1.jpg">
-                        
-                        <p>Sustainable Minimalism</p>
-                        <small>Price: $5</small>
-                        
-                    </div>
-                </td>
-
-
-                <td> <input type="number" value = "1"></td>
-                <td>$5</td>
-            </tr>
-
-          
-            <tr>
-                <td>
-                    <div class="cart-info">
-                    <img src="/Image/product1.jpg">
-                        
-                        <p>Sustainable Minimalism</p>
-                        <small>Price: $5</small>
-                        
-                    </div>
-                </td>
-
-
-                <td> <input type="number" value = "1"></td>
-                <td>$5</td>
-            </tr>
-            
-    
+             </tr>
         </table>
 
-        <div class="total-price">
-            <table>
-                 <tr>
-                    <td>Sub-total</td>
-                    <td>$100</td>
-
-                 </tr>
-
-                 <tr>
-                    <td>Tax</td>
-                    <td>$30</td>
-
-                 </tr>
-
-                 <tr>
-                    <td>Sub-total</td>
-                    <td>$200</td>
-
-                 </tr>
-
-
-            </table>
-
-
-
-
-        </div>
-
-
-
+    </div>
 
 </div>
 
 <a class="check-out-button" href="checkout.html">Proceed to check out</a>
 
-
-
-
-
-
-
-
 <footer>
-    <div class="footer-content">
-        <h4>Cook and young</h4>
-        <p>contact us </p>
-        <p>open hours:8-10pm </p>
- </div>
+<div class="footer-content">
+    <h4>Cook and young</h4>
+    <p>contact us </p>
+    <p>open hours:8-10pm </p>
+</div>
 
 <div class="bottom">
-    <p>copyright &copy;2022 desinged by dwight </p>
+<p>copyright &copy;2022 desinged by dwight </p>
 </div>
 </footer>
-
-
-
-
-
-
-
-
-
-
-
 
 </body>
 </html> 

@@ -1,8 +1,7 @@
 body{
     background: linear-gradient(to left top, #FF78BA, #3913B8) ;
     font-family: jost;
- 
-    }
+ }
 
 #searchbox{
     width: 75%;
@@ -10,8 +9,7 @@ body{
 }
 
 div {
-    text-align: center; 
-    
+    text-align: center;   
 }
 
 #searchbox > input {
@@ -26,7 +24,6 @@ div {
         background-color: white;   
 }
 
-
 nav > h1{
     margin: 10px;
     height: 30px;
@@ -36,16 +33,12 @@ nav > h1{
     color: white ;
 }
 
-
 /* Dropdown */
 nav{
     background: #ea62e7;
     border-radius: 5%;
-    width: 100%;
-   
-    
+    width: 100%; 
 }
-
 
 ol, ul {
 	list-style: none;
@@ -59,7 +52,6 @@ ol, ul {
     text-align: center;
     justify-content: center;
     margin: 1%;
-    
   }
 
   nav li{
@@ -67,15 +59,10 @@ ol, ul {
     padding: 0.5em 1em;
     width: 7em;
     color: white;
-    background-color: white;
-       
+    background-color: white;  
     transform: translateX(-1em);
     display: inline-block;
     justify-content: center;
-    
-    
-   
-   
   }
 
   nav ul ul{
@@ -84,10 +71,7 @@ ol, ul {
      position: absolute;
      top:100%;
      transition: 0.4s;
-    text-align: center;
-    
-    
-     
+    text-align: center;  
  }
      
  nav li:hover ul{
@@ -98,9 +82,7 @@ ol, ul {
 a.b, a:hover{
     color: #FF78BA;
     transition: 0.3s;
-    
 }
-
 
 .topgenre{
     width: 100%;
@@ -129,9 +111,6 @@ a.b, a:hover{
     padding: 1px;
     width: 10%;
     flex: 33.33%;
-    
-    
-   
     padding-right: 5%;
 }
 .topgenre-img img{
@@ -147,10 +126,7 @@ a.b, a:hover{
 .topgenre-img1{
     padding: 1px;
     width: 10%;
-    flex: 33.33%;
-    
-    
-   
+    flex: 33.33%; 
     padding-right: 5%;
 }
 .topgenre-img1 img{
@@ -163,26 +139,13 @@ a.b, a:hover{
     clip-path: circle();
 }
 
-
-.topgenre-img1 > img:hover{
-    
+.topgenre-img1 > img:hover{   
     border: 8px solid white;
     border-radius: 50%;
     padding: 5%;   
 }
 
-
-
-
-
-
-
-
-
-
-
 .topgenre-img > img:hover{
-    
     border: 8px solid white;
     border-radius: 50%;
     padding: 5%;   
@@ -190,10 +153,7 @@ a.b, a:hover{
 
 a{
     text-decoration: none;
-
 }
-
-
 
 .presenter{
     padding-left: 20%;
@@ -201,9 +161,7 @@ a{
     grid-template-columns: repeat(4,1fr);
    margin: auto;
    grid-gap:20px;
-   overflow: auto;
-   
-   
+   overflow: auto; 
 }
 
 .gallery{
@@ -212,8 +170,6 @@ a{
     float: left;
     display: block;
     position: relative;
-    
-   
 }
 
 .gallery > img{
@@ -221,7 +177,6 @@ a{
     height: auto;
     margin: 1px;
     border-radius: 10px; 
-  
 }
 
 .gallery > a >img{
@@ -240,12 +195,6 @@ a{
     transform:scale(1.1);
     transition: 1.2s ease;
 }
-
-
-
-
-
-
 
 .title{
     padding: 10px;  
@@ -266,13 +215,8 @@ a{
     padding-left: 30%;
 }
 
-
-
-
-.shopping-container > button{
-   
+.shopping-container > button{  
     top: 8px;
-    
     font-family: jost;
     margin-left: -4%;
     overflow: wrap;
@@ -289,15 +233,6 @@ a{
     padding-left: 40%;
 }
 
-
-
-
-
-
-
-
-
-
 button{
     border: 2px solid #BCA8ED;
     background:#BCA8ED;
@@ -308,18 +243,13 @@ button{
     font-family: jost;
     display: flex;
     font-weight: bold;
-    
-    
 }
 
 button:hover{
     box-shadow: 0 0 5px 5px;
-    
-   
 }
 
 .counter{
-   
     top: 1px;
 }
 
@@ -327,7 +257,6 @@ button:hover{
     position: relative;
     width: 30%;
   padding-left: 60%;
-   
 }
 
 .cart a{
@@ -338,8 +267,6 @@ button:hover{
     color: white;
     background-color: #BCA8ED;
     font-size: 25px;
-  
-    
 }
 
 .cart-1 >a{
@@ -350,35 +277,28 @@ button:hover{
 
 .cart-1{top: 30%;}
 
-
 @media only screen and (max-width:780px) {
     nav.ul >li{width: 100%}
     nav.ul> a {width: 100%}
     div.presenter{display: grid;
-        grid-template-columns: repeat(2,1fr);}
-   
+    grid-template-columns: repeat(2,1fr);}
     div.gallery>a >img{width: 100%;}
     div.gallery>a{width: 100%;}
    div.gallery >img{width: 100%;}
    div.gallery{right:35%;}
    nav.h1{width: 100%;}
-   
    div.shopping-container{right:25%;}
    div.sidebar{width: 100%;}
-  
    div.topgenre-img >img{display: none;}
    div.topgenre-img >p{display: none;}
    div.topgenre-img1 >img{width: 500%;
 display: flex;}
 div.topgenre-img1 >p{margin-left:180%;}
-
-
-
-
+.cart >a{margin-left: 30%;
+margin-bottom: 50%;}
 }
 .sidebar{
-    margin: 0;
-    
+    margin: 0;   
     user-select: none;
     box-sizing: border-box;
     height: 100%;
@@ -386,18 +306,12 @@ div.topgenre-img1 >p{margin-left:180%;}
     background-color: aliceblue;
     position: relative;
     width: 20%;
-    
 }
 
 .sidebar > text{
     color: white;
     font-size: 50px;
-    
-    
 }
-
-
-
 
 .sidebar >ul >li{
    line-height: 60px;
@@ -405,10 +319,6 @@ div.topgenre-img1 >p{margin-left:180%;}
    font-size: 20px;
    font-family: jost;
 }
-
-
-
-
 
 footer{
     background:#9351FF;

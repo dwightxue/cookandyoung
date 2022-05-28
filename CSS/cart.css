@@ -1,8 +1,7 @@
 body{
     background: linear-gradient(to left top, #FF78BA, #3913B8) ;
     font-family: jost;
- 
-    }
+ }
 
 #searchbox{
     width: 75%;
@@ -10,8 +9,7 @@ body{
 }
 
 div {
-    text-align: center; 
-    
+    text-align: center;   
 }
 
 #searchbox > input {
@@ -26,7 +24,6 @@ div {
         background-color: white;   
 }
 
-
 nav > h1{
     margin: 10px;
     height: 30px;
@@ -36,16 +33,12 @@ nav > h1{
     color: white ;
 }
 
-
 /* Dropdown */
 nav{
     background: #ea62e7;
     border-radius: 5%;
-    width: 100%;
-   
-    
+    width: 100%; 
 }
-
 
 ol, ul {
 	list-style: none;
@@ -59,23 +52,17 @@ ol, ul {
     text-align: center;
     justify-content: center;
     margin: 1%;
-    
   }
 
-nav li{
+  nav li{
     border: 1px #FF78BA solid;
     padding: 0.5em 1em;
     width: 7em;
     color: white;
-    background-color: white;
-       
+    background-color: white;  
     transform: translateX(-1em);
     display: inline-block;
     justify-content: center;
-    
-    
-   
-   
   }
 
   nav ul ul{
@@ -84,10 +71,7 @@ nav li{
      position: absolute;
      top:100%;
      transition: 0.4s;
-    text-align: center;
-    
-    
-     
+    text-align: center;  
  }
      
  nav li:hover ul{
@@ -98,40 +82,36 @@ nav li{
 a.b, a:hover{
     color: #FF78BA;
     transition: 0.3s;
-    
 }
 
 a{
     text-decoration: none;
-    left: 40%;
 }
 
-
+button{
+    border: 2px solid #BCA8ED;
+    background:#BCA8ED;
+    font-weight: bold;
+    margin: 20px;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-family: jost;
+    display: flex;
+    color: white;
+    font-size: 20px;   
+}
 
 button:hover{
     box-shadow: 0 0 5px 5px;
-    
-   
-}
-
-
-
-button:hover{
-    box-shadow: 0 0 5px 5px;
-    
-   
 }
 
 .counter{
-   
     top: 1px;
 }
-
 .cart{
     position: relative;
     width: 30%;
-  padding-left: 60%;
-   
+  padding-left: 60%; 
 }
 
 .cart a{
@@ -141,23 +121,13 @@ button:hover{
    border-radius: 16px;
     color: white;
     background-color: #BCA8ED;
-    font-size: 25px;
-  
-    
+    font-size: 25px;   
 }
-
-
-.cart-container >p{
-    
-}
-
-
 
 .cart-container{
     margin: 80px auto;
     padding-left: 20%;
     padding-right: 20%;
-    
 }
 
 .cart-container >table{
@@ -186,35 +156,28 @@ th{
     color: white;
     background:  #BCA8ED;
     font-weight: normal;
-   
 }
-
 
 .cart-info >p{
     color: white;
-    padding-bottom: 19%;
+    padding-top: 4%;
 }
 
 .cart-info > small{
     color: white;
-    margin-left:-27%;
+    margin-left:-15%;
     padding-top: 10%;
     right: 40%;
 }
 
-
 .cart-info > img{
-    width: 15%;
+    width: 17%;
     padding:5%;
-   
 }
 
 .cart-info{
     display: flex;
-    
 }
-
-
 
 .small{
     padding-bottom: 40%;
@@ -223,7 +186,6 @@ th{
 .total-price{
     display: flex;
     justify-content: flex-end;
-
 }
 
 .total-price >table{
@@ -233,17 +195,7 @@ th{
     color: white;
     margin-bottom: 1rem;
     padding: 5px;
-
-    
 }
-
-
-
-
-
-
-
-
 
 .check-out-button {
     border: 2px solid white;
@@ -251,26 +203,18 @@ th{
     color: white;
     margin-left: 70%;
     font-size: 17px;
-
-  
 }
-
-
-
 
 @media only screen and (max-width:780px) {
     div.cart-container >th{width: 100%;
-                                margin-left: -70%;}
+                           margin-left: -70%;}
     
     div.cart-container >td{width: 100%;
-                                    margin-left: -10%;}
+                          margin-left: -10%;}
 
     div.cart-container{width: 90%;
-    margin-left: -10%;
-left: 30%;}
-
-
-
+                       margin-left: -10%;
+                       left: 30%;}
     .cart-info >small{
         margin-left: 20%;
     }
@@ -292,21 +236,18 @@ left: 30%;}
         line-height: 32px;
 
     }
-
-
-
-
-    div.cart-info >img{width: 140%;
+    div.cart-info >img{width: 100%;
     }
     .check-out-button{
         width: 40%;
         display: flex;
-        margin-left: 60%;
-        
+        margin-left: 60%;  
     }
-
-
-
+    .cart >a{
+        right: -1%;
+      margin-top: -13%;
+      position: absolute;
+     }
 }
 
 footer{
@@ -316,18 +257,3 @@ footer{
     font-family: jost;
     font-size: 15px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

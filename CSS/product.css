@@ -1,8 +1,7 @@
 body{
     background: linear-gradient(to left top, #FF78BA, #3913B8) ;
     font-family: jost;
- 
-    }
+ }
 
 #searchbox{
     width: 75%;
@@ -10,8 +9,7 @@ body{
 }
 
 div {
-    text-align: center; 
-    
+    text-align: center;   
 }
 
 #searchbox > input {
@@ -26,7 +24,6 @@ div {
         background-color: white;   
 }
 
-
 nav > h1{
     margin: 10px;
     height: 30px;
@@ -36,16 +33,12 @@ nav > h1{
     color: white ;
 }
 
-
 /* Dropdown */
 nav{
     background: #ea62e7;
     border-radius: 5%;
-    width: 100%;
-   
-    
+    width: 100%; 
 }
-
 
 ol, ul {
 	list-style: none;
@@ -59,7 +52,6 @@ ol, ul {
     text-align: center;
     justify-content: center;
     margin: 1%;
-    
   }
 
   nav li{
@@ -67,15 +59,10 @@ ol, ul {
     padding: 0.5em 1em;
     width: 7em;
     color: white;
-    background-color: white;
-       
+    background-color: white;  
     transform: translateX(-1em);
     display: inline-block;
     justify-content: center;
-    
-    
-   
-   
   }
 
   nav ul ul{
@@ -84,10 +71,7 @@ ol, ul {
      position: absolute;
      top:100%;
      transition: 0.4s;
-    text-align: center;
-    
-    
-     
+    text-align: center;  
  }
      
  nav li:hover ul{
@@ -98,15 +82,11 @@ ol, ul {
 a.b, a:hover{
     color: #FF78BA;
     transition: 0.3s;
-    
 }
 
 a{
     text-decoration: none;
-
 }
-
-
 
 button{
     border: 2px solid #BCA8ED;
@@ -124,20 +104,17 @@ button{
 
 button:hover{
     box-shadow: 0 0 5px 5px;
-    
-   
+ 
 }
 
 .counter{
-   
     top: 1px;
 }
 
 .cart{
     position: absolute;
     width: 30%;
-  padding-left: 60%;
-   
+  padding-left: 60%;   
 }
 
 .cart a{
@@ -147,22 +124,18 @@ button:hover{
    border-radius: 16px;
     color: white;
     background-color: #BCA8ED;
-    font-size: 25px;
-  
-    
+    font-size: 25px; 
 }
 
 .details{padding-left: 30%;
     display: block;
     font-family: jost;
     padding: 5px;
-    
-  
 }
 
 .details >input{
     position: absolute;
-    bottom:320px ;
+    top: 30%;
     width: 3%;
     right:46%;
 }
@@ -176,7 +149,6 @@ button:hover{
    
 }
 
-
 .details >h1{
         position: absolute;
         font-family: jost sans-serif;  
@@ -189,60 +161,35 @@ button:hover{
     padding: 8px;
     margin: 25px;
     text-align: justify;
-    padding-top: 1%;
-    color: white;
-   
+    padding-top: 3%;
+    color: white; 
 }
-
-
-
-
-
-
-
-
-
-
-
 
 .number{
     position: relative;
     padding-top: 30%;
 }
 
-
 .productimage{
-  
     position: absolute;
     left: 0%;
-
 }
-
 
 .product-container{
     width: 100%;
     display:flex;
     justify-content: center;
     flex-direction: row;
-
 }
-
-
-
 
 .productimage >img{
-    height: 30%;
-   width: 30%;
+height: 30%;
+width: 30%;
 cursor: pointer;
-padding-left: 50%;
+padding-left: 90%;
 display: flex;
 padding-top: 5%;
-
-
 }
-
-
-
 
 .shopping-container{
     display: flex;
@@ -250,15 +197,10 @@ padding-top: 5%;
     padding-left: 50%;
 }
 
-
-
-
 .shopping-container > button{
-   
-    top: 19px;
+    top: 8px;
     left: 3%;
     font-family: jost;
-    
     overflow: wrap;
     color: white;
     white-space: pre;
@@ -268,20 +210,12 @@ padding-top: 5%;
    justify-content: cen;
 }
 
-
-
-
-
-
-
 .add-animation2{
-    
     top: 8px;
     left: 3%;
     font-family: jost;
     color: white;
     overflow: wrap;
-    
     white-space: pre;
     font-size: 20px;
     border-radius: 50px;
@@ -290,91 +224,60 @@ padding-top: 5%;
 }
 
 @media only screen and (max-width:780px) {
-
     .details{
         left: 10%;
     }
-
     .shopping-container{width: 100%;
     padding-top: 170%;
-            padding-left: 1%;}
-
-
+            padding-left: 19%;}
+    .gallery >img{display: none;}
+    .shopping-container1{display: none;}
+    .shopping-container1 > {display: none;}
+    .related-product{display: none;}
+   
     .productimage >img{width: 50%;
         position: relative;
         left: 20%;
         padding: 30px;
     }
-
     .details >h1{
         width: 100%;
         padding-top: 90%;
         left: 1%;
     }
-
-
     .details >p{
         width: 100%;
         padding-top: 110%;
-        
+        display: flex;
         justify-content: space-evenly;
-        left:0.111111111111%;
-        
+        left: 0.0000000001%;   
     }
-
     .details >input{
         width: 10%;
-        top:82%;
+        top: 66%;
         left:10%;
-        height: 3%;
     }
-
-    .details >h4{
-            
+    .details >h4{     
          display: none;
         }
-
-       
-
         .cart >a{
-            right: 10%;
-          bottom: 18%;
+           right: -1%;
+         margin-top: -13%;
+         position: absolute;
         }
-
-       
 }
-
-
-
-
 
 .related-product{
-  
-    
     grid-template-columns: repeat(4,1fr);
    margin: auto;
-   padding-left: 10%;
-   
+   padding-left: 10%; 
 }
-
 
 h2{
     font-size: 24px;
     color: white;
     border-top: 2px solid white;
- 
-   
-   
 }
-
-
-
-
-
-
-
-
-
 
 .gallery{
     margin: 20px;
@@ -383,26 +286,22 @@ h2{
     display: block;
     position: relative;
     padding: 50px;
-    
-   
 }
 
-
-
-
-
 .related-product{
-    padding: 40px;
-    
-    
+    padding: 40px; 
 }
 
 .related-product > .gallery >img{
     width: 30%;
-    flex: 33.33%;
-    padding: 5px;
+    flex: 40.33%;
+    padding: 5px;  
 }
 
 .related-product >h2{
-    padding-left: 40%;
+    padding-left: 10%;
+}
+
+.shopping-container1 >button{
+    margin-left: 43%;
 }

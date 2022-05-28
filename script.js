@@ -8,3 +8,9 @@ document.getElementById('add-animation').addEventListener('click', event => {
     cl.remove(c, cl.contains(c));
     setTimeout (() => counter.classList.add('animation-counter'), 1);
 });
+
+
+
+
+
+  

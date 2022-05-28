@@ -1,19 +1,15 @@
 body{
     background: linear-gradient(to left top, #FF78BA, #3913B8) ;
     font-family: jost;
- 
-    }
+ }
 
 #searchbox{
     width: 75%;
     margin: auto;
 }
 
-
-
 div {
-    text-align: center; 
-    
+    text-align: center;   
 }
 
 #searchbox > input {
@@ -66,8 +62,7 @@ ol, ul {
     padding: 0.5em 1em;
     width: 7em;
     color: white;
-    background-color: white;
-       
+    background-color: white;  
     transform: translateX(-1em);
     display: inline-block;
     justify-content: center;
@@ -79,10 +74,7 @@ ol, ul {
      position: absolute;
      top:100%;
      transition: 0.4s;
-    text-align: center;
-    
-    
-     
+    text-align: center;  
  }
      
  nav li:hover ul{
@@ -93,7 +85,6 @@ ol, ul {
 a.b, a:hover{
     color: #FF78BA;
     transition: 0.3s;
-    
 }
 
 
@@ -203,7 +194,6 @@ h2{
 
 
 a{text-decoration: none;
-
 }
 
 
@@ -224,16 +214,12 @@ button{
 
 button:hover{
     box-shadow: 0 0 5px 5px;
-    
-   
 }
 
 
 
 .cart{
     padding-left: 45%;
-    
-   
 }
 
 .cart a{
@@ -243,25 +229,23 @@ button:hover{
    border-radius: 16px;
     color: white;
     background-color: #BCA8ED;
-    font-size: 25px;
-    
-   
+    font-size: 25px; 
 }
 
 .count{
-   
     top: 1px;
 }
-
 
 @media only screen and (max-width:780px) {
     nav.ul >li{width: 100%;
    }
     nav.ul> a {width: 100%}
-    div.box-image >a{width: 50%;}
-    div.box-image >img{display: none;}
+    div.box-image >a{width: 40%;
+    margin-top: -1%;}
+    div.box-image >img{width: 100%;
+    margin-left: -0.1%;}
     div.box-image >p{width: 100%;
-                    left: 30%;}
+                    right: 170%;}
    
         .home2-image{width: 120%;}
     div.home2-image >img{width: 400%;
@@ -292,51 +276,36 @@ button:hover{
     div.home4-image{display:none;}
     .home1presenter{width: 200%;}
     
-
-
 }
 
-
-
 .home1presenter{
-    
     display: grid;
     grid-template-columns: repeat(4,1fr);
    margin:auto;
    grid-gap:20px;
    overflow: auto;
-   
 }
 
 .shopping-container > button{
-   
     top: 8px;
     left: 3%;
     font-family: jost;
-   
     overflow: wrap;
     color: white;
     white-space: pre;
     font-size: 17px;
     border-radius: 50px;
-    display: flex;
-   
+    display: flex; 
 }
 
-
-
-
-.shopping-container{ margin-left: 25%;}
-
+.shopping-container{ margin-left: 34%;}
 
 .gallery{
     margin: 5px;
     border: 1px  white;
     float: left;
     display: block;
-    position: relative;
-  
-   
+    position: relative; 
 }
 
 .gallery > img{
@@ -363,9 +332,52 @@ button:hover{
     transition: 1.2s ease;
 }
 
-
-
 .container >img{width: 10%;}
+
+.home4-image{
+    padding-left: 64%;
+    position: absolute;
+    margin: 30px;
+    display: flex;
+    justify-content: left;
+    margin-bottom: -40%; 
+}
+
+.home4-image >img{
+ 
+     transition: transform 2s;
+     border-radius: 50px;
+     transition: 0.5s ease;
+ }
+ 
+ .home4-image > img:hover{
+    transform: scale(1.1);
+}
+
+.home4-image > p{
+    position: absolute;
+    padding-right: 20%;
+    bottom: 76%;
+    font-family: jost;
+    overflow: wrap;
+    color: white;
+    white-space: pre;
+    font-size: 23px;
+    border-radius: 50px;
+    margin: 50px;
+}
+
+.home4-image a{
+    font-size: 20px;  
+    top: 50%;
+    position:absolute;
+    margin: 50px;
+    border: 2px solid #9351FF;
+    border-radius: 50px;
+    justify-content: space-evenly;
+    left: 70%;
+}
+
 
 
 .home2-image{
@@ -376,37 +388,30 @@ button:hover{
     display: flex;
     justify-content: left;
     bottom: 90px;
-    
 }
 
 .home2-image >img{
-  
    width: 100%;
     display:flex;
     transition: transform 2s;
     border-radius: 50px;
-    transition: 0.5s ease;
-    
+    transition: 0.5s ease;  
 }
 
 .home2-image > img:hover{
     transform: scale(1.1);
-    
 }
 
 .home2-image > p{
     position: absolute;
     padding-left: 10%;
     font-family: jost;
-    
     overflow: wrap;
     color: white;
     white-space: pre;
     font-size: 17px;
     border-radius: 50px;
-    
     margin: 50px;
-   
 }
 
 .home2-image a{
@@ -428,29 +433,21 @@ left: 30%;
     width: 100%;
     height: 100%;
     overflow: hidden;
- 
     position: relative;
     font-family: jost;
     margin: 50px;
     display: flex;
-    
-   
 }
-.home3-image{
-     
+.home3-image{ 
     overflow: hidden;
     position: relative;
- 
     display: flex;
-   
-
-    
 }
 .container{
     display: flex;
     flex-direction: row;
     justify-content:center; 
-   
+    padding-right: 30%;
 }
 
 .container>a{width: 6%;
@@ -458,50 +455,39 @@ left: 30%;
     font-size: 20px;  
     position: absolute;
      top: 50%;
-    
-   
     margin: 50px;
     justify-content: space-evenly;
-
 }
 
 .home3-image > img{
     width: 60%;
-   
     margin: 50px;
     display:flex;
     transition: transform 2s;
     border-radius: 50px;
-    transition: 0.5s ease;
-  
+    transition: 0.5s ease; 
 }
 
 .home3-image > img:hover{
     transform: scale(1.1);
-    
 }
 
 .home3-image > p{
     position: absolute;
     top: 24px;
-    left: 44%;
+    left: 14%;
     font-family: jost;
-    
     overflow: wrap;
     color: white;
     white-space: pre;
     font-size: 17px;
     border-radius: 50px;
-    
     margin: 50px;
-   
 }
 
 .home3-image a{
-
 font-size: 20px;  
 top: 50%;
-
 position:absolute;
 margin: 50px;
 border: 2px solid #9351FF;
@@ -509,24 +495,6 @@ border-radius: 50px;
 justify-content: space-evenly;
 left: 10%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .title{
     font-size: 25px;
@@ -545,10 +513,7 @@ left: 10%;
     font-style: italic;
     position:relative;
     display: flex;
-    
 }
-
-
 
 footer{
     background:#9351FF;

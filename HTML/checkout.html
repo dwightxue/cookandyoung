@@ -5,181 +5,98 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../CSS/checkout.css">
+    <link rel = "stylesheet" href = "../CSS/checkout.css">
     <script  src="../JS/checkout.js"></script>
-    <script>
-        function validateForm() {
-           
-  let x = document.forms["checkoutform"]["card"].value;
- 
-  if (x.length <= 12) {
-
-    document.getElementById("notvalidate").innerHTML="Credit card number should be more than 12 digits";
-    return false;
-  }else{
-      return true;
-  }
-}
-    </script>
 </head>
 <body>
+   <nav>
+    <h1>
+        Cook and young 
+    </h1>
     
-    <nav>
-        <h1>
-            Cook and young 
-        </h1>
-        
-        
-        <div id="searchbox">
-            <input placeholder="Search" type="text">
-            
-            
-        </div>
+    <div id="searchbox">
+        <input placeholder="Search" type="text">
+    </div>
+    
+    <div class="cart">
+        <a href="cart.html">Cart
+            <span id="counter">1</span>
+        </a>
+    </div>
 
-        <div class="cart-1">
-            <div class="cart">
-                <a href="cart.html">Cart
-                    <span id="counter">1</span>
-                </a>
-            </div>
-            
-            </div>
+     <ul>   
+        <li><a href ="index.html">HOME</a></li>
+        <li><a href ="productlisting.html">GENRE</a>
+    <ul>
+        <li><a href="productlisting.html">Fiction</a></li>
+        <li><a href="productlisting.html">Non-fiction</a></li> 
+    </ul>
+    </li>
 
-
-
-
-
-     <ul>
-        
-           
-          <li><a href = "/index.html">HOME</a></li>
-          <li><a href = "../HTML/productlisting.html">GENRE</a>
-            <ul>
-                <li><a href="../HTML/productlisting.html">Fiction</a></li>
-                <li><a href="../HTML/productlisting.html">Non-fiction</a></li>
-                
-              </ul>
-            </li>
-
-
-          <li><a href = "#">BLOG </a></li>
-          <li><a href = "#">CONTACT</a></li>
+    <li><a href = "#">BLOG </a></li>
+    <li><a href = "#">CONTACT</a></li>
     </ul>
     
    </nav>
 
-<h2>Billing Detail</h2>
-<div class="check-out-page">
-    <div class="billing">
-        <form name="checkoutform" action="product.html" onsubmit="return validateForm()" method="post">
-        
-            <div class="form1">
-                <label for="name">Name</label>
-            <input type="text" name="fname" required>
-            
-            </div>
-
-          
-
-             <div class="form1">
-                <label>Country</label>
-                <select name="Country">
-                    <option value="">----Select a Country</option>
-                    <option value="China">China</option>
-                    <option value="China">Australia</option>
-                    <option value="China">Thailand</option>
-                </select>
-
-            </div>
-
-            <div class="form1">
-                <label>Country</label>
-                <select name="Country">
-                    <option value="">----Select a City</option>
-                    <option value="Melbourne">Melbourne</option>
-                    <option value="Sydney">Sydney</option>
-                    <option value="Brisbane">Brisbane</option>
-                </select>
-
-                <div class="form1">
-                    <label for="creditcard">Credit card number</label>
-                <input type="text" name="card" required>
-                <div id="notvalidate" style="color: red"></div>
-                
-                </div>
+   <h2>Billing Detail</h2>
+   <div class="check-out-page">
+       <div class="billing">
+           <form name="checkoutform" action="product.html" onsubmit="return validateForm()" method="post">     
+               <div class="form1">
+                   <label for="name">Name</label>
+               <input type="text" name="fname" required>
                
-
-
-
-
-
-
-        <input type="submit" value="Place order">
-
-
-
-
-          </form>
-          
-    
-
-
-
-
-    </div>
-
-    
-
-
-
+               </div>
+   
+                <div class="form1">
+                   <label>Country</label>
+                   <select name="Country">
+                       <option value="">----Select a Country</option>
+                       <option value="China">China</option>
+                       <option value="China">Australia</option>
+                       <option value="China">Thailand</option>
+                   </select>
+   
+               </div>
+   
+               <div class="form1">
+                   <label>City</label>
+                   <select name="Country">
+                       <option value="">----Select a City</option>
+                       <option value="Melbourne">Melbourne</option>
+                       <option value="Sydney">Sydney</option>
+                       <option value="Brisbane">Brisbane</option>
+                   </select>
+               
+                   <div class="form1">
+                    
+                        <h3>Credit card number</h3>
+                   <input type="text" name="card" required>
+                   <div id="notvalidate" style="color: red"></div>                 
+                   </div>
+           <input type="submit" value="Place order">
+             </form>
+       </div>
 </div>
+   <div class="order-summary">
+       <div class="check-out">
+           <h3>Order summary</h3>
+           <ul>
+               <div class="total-price">
+                   <table>
+                        <tr>
+                           <td>Sub-total</td>
+                           <td>$100</td>      
+                        </tr>     
+                   </table>   
+               </div>
+               <li>Shipping <input type="radio">Express Shipping
+                   <input type="radio">Fast Shipping</li>                                  </li>
+               <li><a href="payment.html">Check out</a></li>
+           </ul>
+       </div>
+   </div>
 
-
-
-<div class="order-summary">
-    <div class="check-out">
-        <h3>Order summary</h3>
-        <ul>
-            <div class="total-price">
-                <table>
-                     <tr>
-                        <td>Sub-total</td>
-                        <td>$100</td>
-    
-                     </tr>
-    
-                     
-    
-    
-                </table>
-    
-    
-    
-    
-            </div>
-            <li>Shipping <input type="radio">Express Shipping
-                <input type="radio">Fast Shipping</li>                                  </li>
-            <li><a href="payment.html">Check out</a></li>
-        </ul>
-    </div>
-
-
-</div>
-
-
-
-<footer>
-    <div class="footer-content">
-        <h4>Cook and young</h4>
-        <p>contact us </p>
-        <p>open hours:8-10pm </p>
- </div>
-
-<div class="bottom">
-    <p>copyright &copy;2022 desinged by dwight </p>
-</div>
-</footer>
-
-
-</body>
-</html>
+   </body>
+   </html>
