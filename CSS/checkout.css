@@ -229,4 +229,9 @@ input{
     .order-summary >a{width: 200%;}
     .check-out >ul{width:99%;}
     nav >ul{margin-left: 10%;}
+    .cart >a{
+        right: -1%;
+      margin-top: -13%;
+      position: absolute;
+     }
 }

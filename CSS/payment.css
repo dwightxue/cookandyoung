@@ -149,3 +149,15 @@ footer{
     font-family: jost;
     font-size: 15px;
 }
+
+@media only screen and (max-width:980px) {
+    h1{width: 100%;
+        margin-left: 20%;}
+    p{width: 100%;
+    margin-left: 20%;}
+    .cart >a{
+        right: -1%;
+      margin-top: -13%;
+      position: absolute;
+     }
+}
