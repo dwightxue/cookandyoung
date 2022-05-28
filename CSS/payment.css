@@ -119,114 +119,33 @@ button:hover{
    border-radius: 16px;
     color: white;
     background-color: #BCA8ED;
-    font-size: 25px;  
+    font-size: 30px; 
 }
 
-.check-out >td{
-    padding: 20%;
-}
-.check-out-page{
+h1{
     display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    padding-left: 20%;
-}
-
-.check-out >h3{
-    text-transform: uppercase;
-    padding: 10px;
     color: white;
-    background-color: #BCA8ED;
+    margin-left: 42%;
+    font-size: 32px;
 }
 
-.check-out >ul >li >a{
-    text-transform: uppercase;
-    padding: 10px;
-    color: white;
-    background-color: #BCA8ED;
-    padding: 4px;
-    display: block;
-    border-radius: 50px;
-    margin-top: 10%;
-}
-
-.check-out >input{
-    width: 35px;
-    position: relative;
-    margin-right: 5px;
-    outline: none;
-    border: 2px solid #ea62e7;
-    color: #ea62e7;
-}
-
-.total-price{
+p{
     display: flex;
-    justify-content: flex-end;
-}
-
-.total-price >table{
-    margin-right: 10%;
-    width: 100%; 
-    font-size: 20px;   
-}
-
-.total-price >td{
-    text-align: center;
-}
-.order-summary{
-    margin-right: 30%;
-}
-
-.form1 >label{
     color: white;
-    width: 10%;
-    margin: 4%;
+    margin-left: 43%; 
+}
+
+.card >a{border: 2px solid #BCA8ED;
+color: white;
+border-radius: 50px;
+font-size: 20px;
+width: 100%;
+margin-right: 6%;}
+
+footer{
+    background:#9351FF;
+    margin-top: 31.8%;
+    color: white;
     font-family: jost;
-}
-
-.form1 >h3{
-    color: white;
     font-size: 15px;
-    margin-right: 40%;
-
-}
-.form1{
-    display: grid;
-    margin-bottom: 10px;
-}
-
-h2{
-    color: white;
-    padding-left: 20%;
-    font-size: 30px;
-}
-
-.billing {
-    display: flex;
-    justify-content: space-between;
-}
-
-.notvalidate{
-     display: grid;
-     font-size: 20px;
-}
-
-input{
-    border: 2px solid  #BCA8ED;
-    border-radius: 50px;
-    background-color: #BCA8ED;
-    color: white;
-    margin-top: 3%; 
-    font-size: 20px;
-}
-
-@media only screen and (max-width:980px) {
-    .order-summary{margin-top: 160%;
-                    margin-left: -80%;
-                width: 100%;}
-    .check-out >h3{width: 100%;}
-    .total-price >td{width: 100%;}
-    .order-summary >a{width: 200%;}
-    .check-out >ul{width:99%;}
-    nav >ul{margin-left: 10%;}
 }

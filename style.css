@@ -236,12 +236,14 @@ button:hover{
     top: 1px;
 }
 
-@media only screen and (max-width:780px) {
+@media only screen and (max-width:980px) {
     nav.ul >li{width: 100%;
    }
     nav.ul> a {width: 100%}
     div.box-image >a{width: 40%;
-    margin-top: -1%;}
+    margin-top: 2%;
+color: white;
+border: 3px solid;}
     div.box-image >img{width: 100%;
     margin-left: -0.1%;}
     div.box-image >p{width: 100%;
@@ -268,14 +270,11 @@ button:hover{
               
             }  
           .count{display: none;}
-    .shopping-container >button{
-       margin-left: -10%;
-    }
+      .shopping-container{margin-right: 40%;}
     nav.h1{width: 100%;}
     div.home3-image{display: none;}
     div.home4-image{display:none;}
     .home1presenter{width: 200%;}
-    
 }
 
 .home1presenter{
@@ -296,9 +295,10 @@ button:hover{
     font-size: 17px;
     border-radius: 50px;
     display: flex; 
+    margin-left: 37%;
 }
 
-.shopping-container{ margin-left: 34%;}
+
 
 .gallery{
     margin: 5px;

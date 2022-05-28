@@ -223,10 +223,11 @@ padding-top: 5%;
    padding-left: 10%;
 }
 
-@media only screen and (max-width:780px) {
+@media only screen and (max-width:980px) {
     .details{
         left: 10%;
     }
+    nav >ul{margin-left: 10%;}
     .shopping-container{width: 100%;
     padding-top: 170%;
             padding-left: 19%;}
