@@ -201,13 +201,11 @@ padding-top: 5%;
     top: 8px;
     left: 3%;
     font-family: jost;
-    overflow: wrap;
     color: white;
     white-space: pre;
     font-size: 17px;
     border-radius: 50px;
     display: flex;
-   justify-content: cen;
 }
 
 .add-animation2{
@@ -215,7 +213,6 @@ padding-top: 5%;
     left: 3%;
     font-family: jost;
     color: white;
-    overflow: wrap;
     white-space: pre;
     font-size: 20px;
     border-radius: 50px;

@@ -119,7 +119,6 @@ a.b, a:hover{
     left: 16px;
     font-family: jost;
     padding-left: 20px;
-    overflow: wrap;
     color: white;
     white-space: pre;
     font-size: 20px;
@@ -290,7 +289,6 @@ border: 3px solid;}
     top: 8px;
     left: 3%;
     font-family: jost;
-    overflow: wrap;
     color: white;
     white-space: pre;
     font-size: 17px;
@@ -360,7 +358,6 @@ border: 3px solid;}
     padding-right: 20%;
     bottom: 76%;
     font-family: jost;
-    overflow: wrap;
     color: white;
     white-space: pre;
     font-size: 23px;
@@ -407,7 +404,6 @@ border: 3px solid;}
     position: absolute;
     padding-left: 10%;
     font-family: jost;
-    overflow: wrap;
     color: white;
     white-space: pre;
     font-size: 17px;
@@ -477,8 +473,6 @@ left: 30%;
     position: absolute;
     top: 24px;
     left: 14%;
-    font-family: jost;
-    overflow: wrap;
     color: white;
     white-space: pre;
     font-size: 17px;

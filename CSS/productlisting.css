@@ -218,14 +218,12 @@ a{
 .shopping-container > button{  
     top: 8px;
     font-family: jost;
-    margin-left: 15%;
-    overflow: wrap;
+    margin-left: 11%;
     color: white;
     white-space: pre;
     font-size: 17px;
     border-radius: 50px;
     display: flex;
-   justify-content: cen;
 }
 
 .add-animation{
