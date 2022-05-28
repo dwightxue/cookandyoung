@@ -240,6 +240,7 @@ button:hover{
     nav.ul >li{width: 100%;
    }
     nav.ul> a {width: 100%}
+    nav >ul{margin-left: 15%;}
     div.box-image >a{width: 40%;
     margin-top: 2%;
 color: white;

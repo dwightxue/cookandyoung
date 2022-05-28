@@ -224,7 +224,8 @@ input{
     .order-summary{margin-top: 160%;
                     margin-left: -80%;
                 width: 100%;}
-    .check-out >h3{width: 100%;}
+    .check-out >h3{width: 100%;
+    margin-top: 60%;}
     .total-price >td{width: 100%;}
     .order-summary >a{width: 200%;}
     .check-out >ul{width:99%;}
@@ -234,4 +235,5 @@ input{
       margin-top: -13%;
       position: absolute;
      }
+     .check-out{margin-top: 40%;}
 }

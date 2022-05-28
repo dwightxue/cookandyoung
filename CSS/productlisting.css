@@ -288,13 +288,14 @@ button:hover{
    div.gallery{right:35%;}
    nav.h1{width: 100%;}
    div.shopping-container{right:25%;}
+   .shopping-container >button{margin-left: 15%;}
    div.sidebar{width: 100%;}
    div.topgenre-img >img{display: none;}
    div.topgenre-img >p{display: none;}
    div.topgenre-img1 >img{width: 500%;
 display: flex;}
 div.topgenre-img1 >p{margin-left:180%;}
-.cart >a{margin-left: 30%;
+.cart >a{margin-left: 24%;
 margin-bottom: 50%;}
 nav >ul{margin-left: 10%;}
 }
