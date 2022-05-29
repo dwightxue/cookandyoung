@@ -159,6 +159,7 @@ button:hover{
     color: #ea62e7;
 }
 
+.check-out{color: white;}
 .total-price{
     display: flex;
     justify-content: flex-end;
@@ -167,7 +168,8 @@ button:hover{
 .total-price >table{
     margin-right: 10%;
     width: 100%; 
-    font-size: 20px;   
+    font-size: 20px; 
+    color: white;  
 }
 
 .total-price >td{
@@ -236,4 +238,7 @@ input{
       position: absolute;
      }
      .check-out{margin-top: 40%;}
+     .total-price{width: 130%;}
+     .check-out >li{width: 160%;}
+     .check-out{color: white;}
 }
