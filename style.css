@@ -284,7 +284,7 @@ border: 3px solid;}
     font-size: 17px;
     border-radius: 50px;
     display: flex; 
-    margin-left: 37%;
+    margin-left: 41%;
 }
 
 .gallery{
@@ -361,7 +361,7 @@ border: 3px solid;}
     border: 2px solid #9351FF;
     border-radius: 50px;
     justify-content: space-evenly;
-    left: 75%;
+    margin-right:-30%;
 }
 
 .home2-image{
