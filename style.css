@@ -353,7 +353,7 @@ border: 3px solid;}
     margin: 50px;
 }
 
-.home4-image a{
+.home4-image >a{
     font-size: 20px;  
     top: 50%;
     position:absolute;
@@ -361,7 +361,7 @@ border: 3px solid;}
     border: 2px solid #9351FF;
     border-radius: 50px;
     justify-content: space-evenly;
-    margin-right:-30%;
+    margin-right: 10%;
 }
 
 .home2-image{
