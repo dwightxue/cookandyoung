@@ -135,7 +135,7 @@ button:hover{
 
 .details >input{
     position: absolute;
-    top: 30%;
+    top: 50%;
     width: 3%;
     right:46%;
 }
@@ -193,7 +193,7 @@ padding-top: 5%;
 
 .shopping-container{
     display: flex;
-   padding-top: 10%;
+   padding-top: 12%;
     padding-left: 50%;
 }
 

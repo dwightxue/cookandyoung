@@ -237,8 +237,8 @@ input{
       margin-top: -13%;
       position: absolute;
      }
-     .check-out{margin-top: 40%;}
+     .check-out{margin-top: 40%;
+        color: white;}
      .total-price{width: 130%;}
-     .check-out >li{width: 160%;}
-     .check-out{color: white;}
+     .order-summary >li{display: none;}
 }
