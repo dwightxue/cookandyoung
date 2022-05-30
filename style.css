@@ -138,9 +138,6 @@ margin: 50px;
 justify-content: space-evenly;
 }
 
-
-
-
 .btn{
     border-radius: 50px;
     border: 2px solid white;
@@ -158,8 +155,6 @@ h2{
     font-size: 40px;
     font-family: jost;
     color: white;
-    
-
 }
 
 .box{
@@ -167,7 +162,6 @@ h2{
     display: block;
     left: 50%;
 }
-
 
 .homeproduct-image{
     max-width: 300px;
@@ -191,10 +185,8 @@ h2{
     transform:scale(1.1);
 }
 
-
 a{text-decoration: none;
 }
-
 
 .title{
     font-weight: bold;
@@ -214,8 +206,6 @@ button{
 button:hover{
     box-shadow: 0 0 5px 5px;
 }
-
-
 
 .cart{
     padding-left: 45%;
@@ -297,8 +287,6 @@ border: 3px solid;}
     margin-left: 37%;
 }
 
-
-
 .gallery{
     margin: 5px;
     border: 1px  white;
@@ -376,8 +364,6 @@ border: 3px solid;}
     left: 70%;
 }
 
-
-
 .home2-image{
     padding-left: 4%;
     padding-top: 4%;
@@ -444,7 +430,7 @@ left: 30%;
     display: flex;
     flex-direction: row;
     justify-content:center; 
-    padding-right: 30%;
+    margin-right: 30%;
 }
 
 .container>a{width: 6%;
