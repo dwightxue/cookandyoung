@@ -186,7 +186,7 @@ button:hover{
 height: 30%;
 width: 30%;
 cursor: pointer;
-padding-left: 90%;
+margin-left: 80%;
 display: flex;
 padding-top: 5%;
 }

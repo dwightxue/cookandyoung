@@ -277,14 +277,13 @@ border: 3px solid;}
 
 .shopping-container > button{
     top: 8px;
-    left: 3%;
     font-family: jost;
     color: white;
     white-space: pre;
     font-size: 17px;
     border-radius: 50px;
     display: flex; 
-    margin-left: 41%;
+    margin-left: 39%;
 }
 
 .gallery{
