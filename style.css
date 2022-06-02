@@ -127,7 +127,7 @@ a.b, a:hover{
 }
 
 .box-image a{
-width: 6%;
+width: 10%;
 height: 5%;
 font-size: 20px;  
  top: 50%;
@@ -441,12 +441,13 @@ left: 30%;
 }
 
 .home3-image > img{
-    width: 60%;
+    width: 70%;
     margin: 50px;
     display:flex;
     transition: transform 2s;
     border-radius: 50px;
-    transition: 0.5s ease; 
+    transition: 0.5s ease;
+    height: 70%;
 }
 
 .home3-image > img:hover{
