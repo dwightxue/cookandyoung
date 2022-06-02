@@ -116,7 +116,6 @@ a.b, a:hover{
 .box-image > p{
     position: absolute;
     top: 8px;
-    left: 16px;
     font-family: jost;
     padding-left: 20px;
     color: white;
